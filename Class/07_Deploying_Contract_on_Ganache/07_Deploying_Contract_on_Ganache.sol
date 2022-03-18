@@ -30,8 +30,9 @@ pragma solidity >=0.6.0 <0.9.0;
 
     -> NOTE: now if we will change some conde in contract and then we will again deploy the contract then truffle will say contract is upto date, but we have change the contract code, for that reason if  we want to remigrate the previously migrated contract we have to run on terminal:
         -> truffle migrate --reset
+*/
 
-
+/*
     -> if you want to interact with smart contract the way that you use to do in remix IDE where it provide us a button,here we have to do:
         -> truffle develop
             -> and see the tiven port by truffle dev channel
