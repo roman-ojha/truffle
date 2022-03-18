@@ -1,0 +1,6 @@
+-> npm i -g truffle
+-> truffle version
+-> truffle compile
+-> truffle migrate
+-> truffle migrate --reset
+-> truffle develop (this will show us some account address and private key for development if you are not using ganache GUI this is useful)

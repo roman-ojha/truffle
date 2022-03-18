@@ -14,7 +14,7 @@ pragma solidity >=0.6.0 <0.9.0;
 // To compile project we will use in terminal:
 // -> truffle compile
 
-contract demo {
+contract Demo {
     uint256 number;
 
     function setter(uint256 _number) public {
