@@ -1,0 +1,13 @@
+NOTE: this document is form class/06_Compiling_Smart_Contract
+/*
+    -> if you want to interact with smart contract the way that you use to do in remix IDE where it provide us a button,here we have to do:
+        -> truffle develop
+            -> and see the tiven port by truffle dev channel
+        -> and past that port on 'truffle-config.js' file
+        -> and then again do :
+            -> truffle develop
+            -> truffle migrate (inside the development environment, now this will create the instance of contract)
+            -> let instance = await Demo.deployed()
+            -> instance.setter(15)
+            -> instance.getter()
+*/
