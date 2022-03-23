@@ -1,8 +1,11 @@
 -> npm i -g truffle
--> truffle version
--> truffle compile
--> truffle migrate
+-> truffle version (to see the version of truffle, ganache cli, solidity that comes with truffle npm package)
+-> truffle compile (to compile the smart contract)
+-> truffle migrate (to compile and deploy smart contract)
 -> truffle migrate --reset
--> truffle migrate --reset --network develop  (deploy smart contract to by specifying network)
+-> truffle migrate --reset --network <network_name>  (deploy smart contract to by specifying network)
+-> truffle migrate --reset --compile-all (to compile on all the network)
 -> truffle develop (provide development environment)
     -> .exit (to exit from truffle env)
+-> truffle console (another way to enter on development environment)
+-> truffle unbox react (initializing truffle project with react)
