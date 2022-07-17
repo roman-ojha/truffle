@@ -39,7 +39,8 @@ pragma solidity >=0.6.0 <0.9.0;
         -> and past that port on 'truffle-config.js' file
         -> and then again do :
             -> truffle develop
-            -> truffle migrate (inside the development environment, now this will create the instance of contract)
+                -> truffle migrate (inside the development environment, now this will create the instance of contract)
+                -> .exit (exit from truffle development env)
             -> let instance = await Demo.deployed()
             -> instance.setter(15)
             -> instance.getter()
