@@ -2,7 +2,7 @@
 
 pragma solidity >=0.6.0 <0.9.0;
 
-contract demo {
+contract Practice01Demo {
     uint256 number;
 
     function settter(uint256 _number) public {
